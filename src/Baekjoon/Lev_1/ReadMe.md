@@ -23,3 +23,7 @@
     BUF_IN.close();
 
 ```
+
+### Refercence
+
+- [BufferedReader, BufferedWriter를 활용한 빠른 입출력](https://coding-factory.tistory.com/251)
