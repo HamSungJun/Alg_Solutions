@@ -1,7 +1,7 @@
-# 제목
+# 자바 알고리즘 문제 풀이
 
-`자바가 하고 싶어 졌어.`
+- Baekjoon Online Judge
 
-## 내용
+- SWExpertAcademy
 
-> 자바가 하고 싶어져서 자바 관련 내용을 다룰 예정.
+
