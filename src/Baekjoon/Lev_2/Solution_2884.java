@@ -14,14 +14,14 @@ public class Solution_2884 {
         int time = Integer.parseInt(dataIn[0]);
         int minute = Integer.parseInt(dataIn[1]);
 
-        if(minute < 45){
+        if (minute < 45) {
             shouldTimeDecrease = true;
             minute = 60 - (45 - minute);
         } else {
             minute -= 45;
         }
 
-        if(shouldTimeDecrease){
+        if (shouldTimeDecrease) {
             time = (time == 0 ? 23 : time - 1);
         }
 
