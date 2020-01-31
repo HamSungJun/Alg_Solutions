@@ -4,6 +4,8 @@
     
     - [Lev_1](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_1)
     
+    - [Lev_2](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_2)
+    
 - [SWExpertAcademy](https://swexpertacademy.com/main/main.do)
 
     - [D1](https://github.com/HamSungJun/doJava/tree/master/src/SWExpertAcademy/D1)
