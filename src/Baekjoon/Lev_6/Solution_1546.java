@@ -1,4 +1,4 @@
-package Baekjoon.Lev_5;
+package Baekjoon.Lev_6;
 
 import java.io.*;
 import java.util.Arrays;

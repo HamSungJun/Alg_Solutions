@@ -10,7 +10,11 @@
     
     - [Lev_4](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_4)
     
-    - [Lev_5](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_5)
+    - Lev_5(Not Posted)
+    
+    - [Lev_6](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_6)
+    
+    - [Lev_7](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_7)
     
 - [SWExpertAcademy](https://swexpertacademy.com/main/main.do)
 
