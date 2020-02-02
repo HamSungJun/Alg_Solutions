@@ -23,10 +23,10 @@ public class Solution_1110 {
         while (true) {
             loopCounter++;
             nextNum = Integer.parseInt(("" + getRightMostNum(startNum)) + ("" + getRightMostNum(getDigitSum(startNum))));
-            if(nextNum != target){
+            if (nextNum != target) {
                 startNum = nextNum;
             } else {
-                BUF_OUT.write(""+loopCounter);
+                BUF_OUT.write("" + loopCounter);
                 break;
             }
 
