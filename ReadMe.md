@@ -23,6 +23,8 @@
     - [Lev_10](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_10)
     
     - [Lev_11](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_11)
+    
+    - [Lev_12 - Brute Force](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_12)
 
 - [SWExpertAcademy](https://swexpertacademy.com/main/main.do)
 
