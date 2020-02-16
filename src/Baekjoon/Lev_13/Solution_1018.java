@@ -1,7 +1,6 @@
-package Baekjoon.Lev_12;
+package Baekjoon.Lev_13;
 
 import java.io.*;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Solution_1018 {

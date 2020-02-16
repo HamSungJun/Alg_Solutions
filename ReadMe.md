@@ -24,7 +24,11 @@
     
     - [Lev_11](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_11)
     
-    - [Lev_12 - Brute Force](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_12)
+    - Lev_12(Not Posted)
+    
+    - [Lev_13 - Brute Force](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_13)
+    
+    - [Lev_14 - Sort](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_14)
 
 - [SWExpertAcademy](https://swexpertacademy.com/main/main.do)
 
