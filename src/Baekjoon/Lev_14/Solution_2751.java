@@ -19,7 +19,7 @@ public class Solution_2751 {
         st.mergeSort(0, dataIn.length - 1, dataIn);
 
         for (int sortedInt : dataIn) {
-            bw.write(""+sortedInt);
+            bw.write("" + sortedInt);
             bw.newLine();
         }
 

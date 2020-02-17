@@ -1,5 +1,21 @@
-# BaekJoon - Level.10
+# BaekJoon - Level.14
 
+## 참고사항
+
+1. `String.format()` vs `+`
+   
+   - String.format() 메소드는 내부적으로 정규표현식을 이용하므로 메모리와 연산 성능에서 불리하다.
+   
+   - '+' 연산자는 내부적으로 `StringBuilder.append()`로 구현이 되므로 문자열 수정에서 유리하다.
+   
+   > 결론 : 문자열 편집은 StringBuilder 클래스를 이용하도록 하자.
+   
+2. 객체 정렬 방법
+
+    - 해당 클래스에 `Comparable<T>`를 implement 후에 `compareTo()` 메소드를 오버라이드
+    
+    - `Collections.sort()` 메소드에 `new Comparator<T>(){ @Override public int compare() }` 작성
+    
 ## 정렬 알고리즘
 
 1. `Selection Sort`
@@ -78,18 +94,18 @@
 
        public void mergeSort(int left, int right, int[] dataIn) {
        
-               if (left < right) {
-       
-                   int m = (right + left) >>> 2;
-       
-                   mergeSort(left, m, dataIn);
-                   mergeSort(m + 1, right, dataIn);
-       
-                   merge(left, m, right, dataIn);
-       
-               }
-       
+           if (left < right) {
+   
+               int m = (right + left) >>> 2;
+   
+               mergeSort(left, m, dataIn);
+               mergeSort(m + 1, right, dataIn);
+   
+               merge(left, m, right, dataIn);
+   
            }
+   
+       }
        
        public void merge(int left, int middle, int right, int[] dataIn) {
    

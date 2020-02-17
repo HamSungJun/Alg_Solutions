@@ -84,7 +84,7 @@ public class Solution_2108 {
 
     public static int getAverage(int sum, int dataLength) {
 
-        return (int)Math.round((double) sum / (double) dataLength);
+        return (int) Math.round((double) sum / (double) dataLength);
 
     }
 
@@ -95,9 +95,9 @@ public class Solution_2108 {
 
         for (int i = 3999; i >= 0; i--) {
 
-            if (dataIn[i] > 0 ) {
+            if (dataIn[i] > 0) {
 
-                if(maxOccurCount < dataIn[i]){
+                if (maxOccurCount < dataIn[i]) {
                     maxOccurCount = dataIn[i];
                 }
 
@@ -112,9 +112,9 @@ public class Solution_2108 {
 
         for (int i = 4000; i <= 8000; i++) {
 
-            if (dataIn[i] > 0 ) {
+            if (dataIn[i] > 0) {
 
-                if(maxOccurCount < dataIn[i]){
+                if (maxOccurCount < dataIn[i]) {
                     maxOccurCount = dataIn[i];
                 }
 
@@ -137,20 +137,20 @@ public class Solution_2108 {
 
     }
 
-    public static int getMaxOccurNum(int maxOccurCount, int[] dataIn){
+    public static int getMaxOccurNum(int maxOccurCount, int[] dataIn) {
 
         List<Integer> occurList = new ArrayList<>();
 
         for (int i = 0; i < dataIn.length; i++) {
 
-            if(dataIn[i] == maxOccurCount){
+            if (dataIn[i] == maxOccurCount) {
                 occurList.add(mapIndexToData(i));
             }
 
         }
 
         Collections.sort(occurList);
-        if(occurList.size() >= 2){
+        if (occurList.size() >= 2) {
             return occurList.get(1);
         }
 
