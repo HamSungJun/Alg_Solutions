@@ -40,7 +40,7 @@
     
     - [TimeComplexity](https://github.com/HamSungJun/doJava/tree/master/src/Codility/TimeComplexity)
     
-    - [CountingElements(Solving)](https://github.com/HamSungJun/doJava/tree/master/src/Codility/CountingElements)
+    - [CountingElements](https://github.com/HamSungJun/doJava/tree/master/src/Codility/CountingElements)
 
 - [SWExpertAcademy](https://swexpertacademy.com/main/main.do)
 

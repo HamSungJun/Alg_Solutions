@@ -16,7 +16,7 @@ public class OddOccurrencesInArray {
         Set<Integer> set = new HashSet<>();
 
         for (int i : A) {
-            if(set.contains(i)){
+            if (set.contains(i)) {
                 set.remove(i);
             } else {
                 set.add(i);

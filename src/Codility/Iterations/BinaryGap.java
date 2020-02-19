@@ -9,18 +9,18 @@ public class BinaryGap {
         int maxBinaryGap = 0;
         for (int i = 1; i < binaryString.length(); i++) {
 
-            if(binaryString.charAt(i) == '0'){
+            if (binaryString.charAt(i) == '0') {
 
-                if(isBinaryGap(binaryString.substring(i))){
+                if (isBinaryGap(binaryString.substring(i))) {
 
                     int subCounter = 0;
                     int startIdx = i;
-                    while (binaryString.charAt(startIdx) != '1'){
+                    while (binaryString.charAt(startIdx) != '1') {
                         subCounter++;
                         startIdx++;
                     }
 
-                    if(maxBinaryGap < subCounter){
+                    if (maxBinaryGap < subCounter) {
                         maxBinaryGap = subCounter;
                     }
 
@@ -36,13 +36,13 @@ public class BinaryGap {
 
     }
 
-    public static boolean isBinaryGap(String binaryString){
+    public static boolean isBinaryGap(String binaryString) {
 
         System.out.println(binaryString);
         boolean isBinaryGap = false;
         for (int i = 0; i < binaryString.length(); i++) {
 
-            if(binaryString.charAt(i) == '1'){
+            if (binaryString.charAt(i) == '1') {
                 isBinaryGap = true;
             }
 

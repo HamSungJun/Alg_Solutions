@@ -26,8 +26,8 @@ public class MaxCounters {
 
             }
 
-            if(counter[A[i] -1] < maxHistory){
-                counter[A[i] -1] = maxHistory;
+            if (counter[A[i] - 1] < maxHistory) {
+                counter[A[i] - 1] = maxHistory;
             }
 
             tempMaxHistory = increase(counter, A[i] - 1, tempMaxHistory);
@@ -36,7 +36,7 @@ public class MaxCounters {
 
         for (int i = 0; i < counter.length; i++) {
 
-            if(counter[i] < maxHistory){
+            if (counter[i] < maxHistory) {
                 counter[i] = maxHistory;
             }
 

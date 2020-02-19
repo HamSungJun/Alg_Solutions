@@ -8,14 +8,14 @@ public class FrogJump {
 
     }
 
-    public static int solution(int X, int Y, int D){
+    public static int solution(int X, int Y, int D) {
 
         int distance = Y - X;
         int answer = 0;
-        if(distance <= D){
+        if (distance <= D) {
             answer = 1;
         } else {
-            answer = distance % D == 0 ? (distance/D) : (distance/D) + 1;
+            answer = distance % D == 0 ? (distance / D) : (distance / D) + 1;
         }
 
         return answer;
