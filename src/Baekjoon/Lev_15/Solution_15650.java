@@ -30,7 +30,7 @@ public class Solution_15650 {
 
     }
 
-    public static void backTrack(boolean[] visited, int N, int M, int currIdx, Stack<Integer> basket) {
+    public static void backTrack(boolean[] visited,int N, int M, int currIdx, Stack<Integer> basket) {
 
         if (currIdx == M) {
             if (isAscending(basket)) {
