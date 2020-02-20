@@ -30,7 +30,7 @@
     
     - [Lev_14 - Sort](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_14)
     
-    - [Lev_15 - Back Tracking(Solving)](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_15)
+    - [Lev_15 - Back Tracking](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_15)
     
 - [Codility](https://app.codility.com/programmers/)
 
