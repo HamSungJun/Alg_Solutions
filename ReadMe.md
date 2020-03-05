@@ -34,6 +34,10 @@
     
     - [Lev_16 - Dynamic Programming](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_16)
     
+    - Lev_17(Not Posted)
+
+    - [Lev_18 - Greedy Algorithm](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_18)
+    
 - [Codility](https://app.codility.com/programmers/)
 
     - [Arrays](https://github.com/HamSungJun/doJava/tree/master/src/Codility/Arrays)
