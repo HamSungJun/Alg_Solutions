@@ -40,6 +40,8 @@
     
     - [Lev_19](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_19)
     
+    - [Lev_20 - Stack](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_20)
+    
     - [Lev_28 - DFS, BFS](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_28)
     
 - [Codility](https://app.codility.com/programmers/)
