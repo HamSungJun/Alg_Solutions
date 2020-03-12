@@ -44,6 +44,10 @@
     
     - [Lev_21 - Queue](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_21)
     
+    - [Lev_23 - Divide & Conquer](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_23)
+    
+    - [Lev_24 - Binary Search](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_24)
+    
     - [Lev_28 - DFS, BFS](https://github.com/HamSungJun/doJava/tree/master/src/Baekjoon/Lev_28)
     
 - [Codility](https://app.codility.com/programmers/)
