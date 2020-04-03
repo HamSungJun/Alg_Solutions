@@ -12,6 +12,7 @@ function solution(A) {
       passingCount += oneCount;
     }
   }
+
   return passingCount > 1000000000 ? -1 : passingCount;
 }
 
