@@ -2,7 +2,7 @@ package Jungol.LanguageCoder.Control;
 
 import java.io.*;
 
-public class Solution_528 {
+public class Solution_121 {
 
     public static void main(String[] args) throws IOException {
 
@@ -11,11 +11,7 @@ public class Solution_528 {
 
         int A = Integer.parseInt(br.readLine());
 
-        bw.write("" + A);
-        if (A < 0) {
-            bw.newLine();
-            bw.write("minus");
-        }
+        bw.write((A == 0) ? "zero" : (A > 0) ? "plus" : "minus");
         bw.flush();
         bw.close();
         br.close();

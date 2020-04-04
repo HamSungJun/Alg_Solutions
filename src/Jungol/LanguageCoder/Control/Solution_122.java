@@ -2,7 +2,7 @@ package Jungol.LanguageCoder.Control;
 
 import java.io.*;
 
-public class Solution_528 {
+public class Solution_122 {
 
     public static void main(String[] args) throws IOException {
 
@@ -11,11 +11,12 @@ public class Solution_528 {
 
         int A = Integer.parseInt(br.readLine());
 
-        bw.write("" + A);
-        if (A < 0) {
-            bw.newLine();
-            bw.write("minus");
+        if (A % 400 == 0 || (A % 4 == 0 && A % 100 != 0)) {
+            bw.write("leap year");
+        } else {
+            bw.write("common year");
         }
+
         bw.flush();
         bw.close();
         br.close();
