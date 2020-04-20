@@ -72,6 +72,10 @@
 
     - [Language Coder](https://github.com/HamSungJun/Alg_Solutions/tree/master/src/Jungol/LanguageCoder)
     
+- [LeetCode](https://leetcode.com/)
+
+    - [Easy](https://github.com/HamSungJun/Alg_Solutions/tree/master/src/Leetcode/Easy)
+    
 ## Contact
 
 - Email : tjdwns5123@gmail.com
