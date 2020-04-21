@@ -1,4 +1,4 @@
-package Leetcode.Easy;
+package Leetcode.Easy.Algorithm;
 
 class Solution_121 {
     public int maxProfit(int[] prices) {

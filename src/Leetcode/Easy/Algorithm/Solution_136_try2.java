@@ -1,4 +1,4 @@
-package Leetcode.Easy;
+package Leetcode.Easy.Algorithm;
 
 class Solution_136_try2 {
     public int singleNumber(int[] nums) {

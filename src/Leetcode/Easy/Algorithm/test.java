@@ -1,4 +1,4 @@
-package Leetcode.Easy;
+package Leetcode.Easy.Algorithm;
 
 public class test {
 
