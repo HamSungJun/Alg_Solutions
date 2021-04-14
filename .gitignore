@@ -3,3 +3,5 @@ HSJ_JAVA.iml
 out/
 Java_Alg_Solutions.iml
 SWExpertAcademy.iml
+package-lock.json
+node_modules
